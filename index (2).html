@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zisty Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            color: #1e293b;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            object-fit: contain;
+            filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.3));
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            color: #cbd5f5;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #38bdf8;
+            color: #fff;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        .section-desc {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            color: #64748b;
+        }
+
+        .about {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #475569;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #0f172a;
+        }
+
+        .card p {
+            color: #64748b;
+            font-size: 0.95rem;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact-box {
+            background: #0f172a;
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-box p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        .contact-box a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="zisty.png" alt="Zisty Agency Logo" class="logo">
+        </div>
+        <h1>Zisty Agency</h1>
+        <p>Creative Marketing Solutions That Drive Real Growth</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </header>
+
+    <section>
+        <h2>Who We Are</h2>
+        <p class="section-desc">We are more than a marketing agency — we are your growth partner.</p>
+        <p class="about">
+            Zisty Agency helps brands stand out in a competitive digital world. We combine creative thinking,
+            powerful strategies, and data-driven execution to deliver measurable results that matter.
+        </p>
+    </section>
+
+    <section>
+        <h2>What We Do</h2>
+        <p class="section-desc">Services designed to grow your brand and increase your revenue.</p>
+        <div class="services">
+            <div class="card">
+                <h3>Social Media Management</h3>
+                <p>Build a strong online presence and engage your audience with strategic content.</p>
+            </div>
+            <div class="card">
+                <h3>Brand Identity</h3>
+                <p>Create a memorable and professional brand that reflects your vision.</p>
+            </div>
+            <div class="card">
+                <h3>Paid Advertising</h3>
+                <p>Run high-converting campaigns across Facebook, Instagram, and Google.</p>
+            </div>
+            <div class="card">
+                <h3>Content Creation</h3>
+                <p>Professional visuals and content that capture attention and drive action.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p class="section-desc">Let’s start growing your business today.</p>
+
+        <div class="contact-box">
+            <p>📞 Phone: <a href="tel:+201062000654">+20 106 200 0654</a></p>
+            <p>📧 Email: <a href="mailto:zistyagency@gmail.com">zistyagency@gmail.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Zisty Agency. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
